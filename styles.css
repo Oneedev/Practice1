@@ -1,0 +1,78 @@
+
+body{
+    background-color: #424242;
+}
+
+.container{
+    width: fit-content;
+}
+
+p{
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    letter-spacing: normal;
+    word-spacing: 0.1px;
+    text-shadow: 0.5px 1px 5px black;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+h1{
+    color: white;
+    text-shadow: 0.5px 1px 5px black;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+#UpLine{
+    width: 100%;
+    height: 68px;
+    background: #212121;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999; 
+}
+
+#Name{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#description{
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-shadow: 0.5px 1px 5px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+    background-color: #616161;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.1px;
+    padding-bottom: 8px;
+    margin-top: 70px;
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+
+    /*flex-basis: 33%;*/
+    
+}
+
+.cover{
+    display: flex;
+    margin: 0px;
+}
+
+
